@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,n,total,i;
+	
+	cout<<"angka: ";
+	cin>>a;
+	
+	cout<<"pangkat: ";
+	cin>>n;
+	
+	i=1;
+	total=1;
+	
+	do
+	{
+	    total=total*a;
+	    i++;
+	} while (i<=n);
+	
+	cout<<"hasil= "<<total;
+	
+	return 0;
+}

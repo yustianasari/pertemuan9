@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,total,i;
+	
+	cout<<"angka: ";
+	cin>>a;
+	
+	i=a;
+	total=1;
+	
+	while (i>=1)
+	{
+	    total=total*i;
+	    i--;
+	}
+	
+	cout<<"hasil= "<<total;
+	
+	return 0;
+}
